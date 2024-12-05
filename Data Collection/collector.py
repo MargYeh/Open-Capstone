@@ -96,6 +96,7 @@ if __name__ == "__main__":
         getdata(str(year), "acs/acs5/profile", 'DP03')
         getdata(str(year), "acs/acs5/profile", 'DP04')
         getdata(str(year), "acs/acs5/subject", 'S0804')
+        getdata(str(year), "acs/acs5/subject", 'S0701')
         getdata(str(year), "acs/acs5/subject", 'S2303')
         getdata(str(year), "acs/acs5/cprofile", 'CP03')
         logger.info("Census data retrieval completed for year {year}, acs/acs1, B19001")
