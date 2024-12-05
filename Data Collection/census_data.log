@@ -1,0 +1,137 @@
+2024-12-04 13:23:13,010 - INFO - Data successfully saved to data\acs_acs1_B19001_2022.json
+2024-12-04 13:28:41,939 - INFO - Data successfully saved to data\acs_acs1_B19001_2005.json
+2024-12-04 13:28:43,309 - INFO - Data successfully saved to data\acs_acs1_B19001_2006.json
+2024-12-04 13:28:44,581 - INFO - Data successfully saved to data\acs_acs1_B19001_2007.json
+2024-12-04 13:28:45,901 - INFO - Data successfully saved to data\acs_acs1_B19001_2008.json
+2024-12-04 13:28:47,211 - INFO - Data successfully saved to data\acs_acs1_B19001_2009.json
+2024-12-04 13:28:48,410 - INFO - Data successfully saved to data\acs_acs1_B19001_2010.json
+2024-12-04 13:28:49,631 - INFO - Data successfully saved to data\acs_acs1_B19001_2011.json
+2024-12-04 13:28:50,854 - INFO - Data successfully saved to data\acs_acs1_B19001_2012.json
+2024-12-04 13:28:52,089 - INFO - Data successfully saved to data\acs_acs1_B19001_2013.json
+2024-12-04 13:28:53,348 - INFO - Data successfully saved to data\acs_acs1_B19001_2014.json
+2024-12-04 13:28:54,690 - INFO - Data successfully saved to data\acs_acs1_B19001_2015.json
+2024-12-04 13:28:55,891 - INFO - Data successfully saved to data\acs_acs1_B19001_2016.json
+2024-12-04 13:28:57,247 - INFO - Data successfully saved to data\acs_acs1_B19001_2017.json
+2024-12-04 13:28:58,528 - INFO - Data successfully saved to data\acs_acs1_B19001_2018.json
+2024-12-04 13:28:59,871 - INFO - Data successfully saved to data\acs_acs1_B19001_2019.json
+2024-12-04 13:29:00,467 - WARNING - Unexpected status code 404: <!doctype html><html lang="en"><head><title>HTTP Status 404 ? Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 ? Not Found</h1></body></html>
+2024-12-04 13:29:01,759 - INFO - Data successfully saved to data\acs_acs1_B19001_2021.json
+2024-12-04 13:29:02,968 - INFO - Data successfully saved to data\acs_acs1_B19001_2022.json
+2024-12-04 13:29:04,379 - INFO - Data successfully saved to data\acs_acs1_B19001_2023.json
+2024-12-04 13:29:04,379 - INFO - Census data retrieval completed for years 2005 to 2023, acs/acs1, B19001
+2024-12-04 13:37:31,079 - INFO - Data successfully saved to data\acs_acs1_B19001_2005.json
+2024-12-04 13:37:32,302 - INFO - Data successfully saved to data\acs_acs1_B19001_2006.json
+2024-12-04 13:37:33,646 - INFO - Data successfully saved to data\acs_acs1_B19001_2007.json
+2024-12-04 13:37:35,031 - INFO - Data successfully saved to data\acs_acs1_B19001_2008.json
+2024-12-04 13:37:36,383 - INFO - Data successfully saved to data\acs_acs1_B19001_2009.json
+2024-12-04 13:37:37,713 - INFO - Data successfully saved to data\acs_acs1_B19001_2010.json
+2024-12-04 13:37:38,947 - INFO - Data successfully saved to data\acs_acs1_B19001_2011.json
+2024-12-04 13:37:40,155 - INFO - Data successfully saved to data\acs_acs1_B19001_2012.json
+2024-12-04 13:37:41,408 - INFO - Data successfully saved to data\acs_acs1_B19001_2013.json
+2024-12-04 13:37:42,694 - INFO - Data successfully saved to data\acs_acs1_B19001_2014.json
+2024-12-04 13:37:43,956 - INFO - Data successfully saved to data\acs_acs1_B19001_2015.json
+2024-12-04 13:37:45,184 - INFO - Data successfully saved to data\acs_acs1_B19001_2016.json
+2024-12-04 13:37:46,438 - INFO - Data successfully saved to data\acs_acs1_B19001_2017.json
+2024-12-04 13:37:47,716 - INFO - Data successfully saved to data\acs_acs1_B19001_2018.json
+2024-12-04 13:37:49,073 - INFO - Data successfully saved to data\acs_acs1_B19001_2019.json
+2024-12-04 13:37:49,662 - ERROR - API request failed for year 2020 and dataset acs/acs1: 404 Client Error:  for url: https://api.census.gov/data/2020/acs/acs1?get=group%28B19001%29&for=county%3A%2A&in=state%3A41%2C06%2C53&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 13:37:49,662 - WARNING - Received 404 for year 2020, dataset acs/acs1. It may not exist.
+2024-12-04 13:37:50,971 - INFO - Data successfully saved to data\acs_acs1_B19001_2021.json
+2024-12-04 13:37:52,368 - INFO - Data successfully saved to data\acs_acs1_B19001_2022.json
+2024-12-04 13:37:53,763 - INFO - Data successfully saved to data\acs_acs1_B19001_2023.json
+2024-12-04 13:37:53,764 - INFO - Census data retrieval completed for years 2005 to 2023, acs/acs1, B19001
+2024-12-04 13:38:55,503 - ERROR - API request failed for year 2020 and dataset acs/acs1: 404 Client Error:  for url: https://api.census.gov/data/2020/acs/acs1?get=group%28B19001%29&for=county%3A%2A&in=state%3A41%2C06%2C53&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 13:38:55,503 - WARNING - Received 404 for year 2020, dataset acs/acs1. It may not exist.
+2024-12-04 13:38:55,503 - INFO - Census data retrieval completed for year {year}, acs/acs1, B19001
+2024-12-04 14:41:49,861 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2009.json
+2024-12-04 14:41:54,053 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2010.json
+2024-12-04 14:41:57,964 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2011.json
+2024-12-04 14:42:01,885 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2012.json
+2024-12-04 14:42:06,021 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2013.json
+2024-12-04 14:42:09,833 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2014.json
+2024-12-04 14:42:13,918 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2015.json
+2024-12-04 14:42:18,184 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2016.json
+2024-12-04 14:42:22,397 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2017.json
+2024-12-04 14:42:23,052 - ERROR - API request failed for year 2018 and dataset acs/acs5/profile: 500 Server Error:  for url: https://api.census.gov/data/2018/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&in=state%3A41%2C06%2C53&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 14:42:27,152 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2019.json
+2024-12-04 14:42:30,023 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2020.json
+2024-12-04 14:42:35,419 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2021.json
+2024-12-04 14:42:35,421 - INFO - Census data retrieval completed for years 2005 to 2023, acs/acs1, B19001
+2024-12-04 14:45:55,297 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2009.json
+2024-12-04 14:46:46,582 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2010.json
+2024-12-04 14:47:40,791 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2011.json
+2024-12-04 14:48:33,656 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2012.json
+2024-12-04 14:49:32,638 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2013.json
+2024-12-04 14:50:22,451 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2014.json
+2024-12-04 14:51:21,813 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2015.json
+2024-12-04 14:52:14,719 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2016.json
+2024-12-04 14:53:06,703 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2017.json
+2024-12-04 14:53:07,427 - ERROR - API request failed for year 2018 and dataset acs/acs5/profile: 500 Server Error:  for url: https://api.census.gov/data/2018/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 14:53:55,381 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2019.json
+2024-12-04 14:54:43,646 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2020.json
+2024-12-04 14:55:31,419 - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2021.json
+2024-12-04 14:55:31,468 - INFO - Census data retrieval completed for years 2005 to 2023, acs/acs1, B19001
+2024-12-04 15:23:41,970 - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2009.json
+2024-12-04 15:24:29,025 - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2010.json
+2024-12-04 15:25:14,143 - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2011.json
+2024-12-04 15:25:59,015 - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2012.json
+2024-12-04 15:26:47,220 - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2013.json
+2024-12-04 15:27:35,419 - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2014.json
+2024-12-04 15:28:21,564 - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2015.json
+2024-12-04 15:29:11,046 - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2016.json
+2024-12-04 15:29:56,244 - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2017.json
+2024-12-04 15:29:56,961 - ERROR - API request failed for year 2018 and dataset acs/acs5/profile: 500 Server Error:  for url: https://api.census.gov/data/2018/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 15:30:41,202 - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2019.json
+2024-12-04 15:31:29,826 - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2020.json
+2024-12-04 15:32:18,466 - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2021.json
+2024-12-04 15:32:18,514 - INFO - Census data retrieval completed for years 2005 to 2023, acs/acs1, B19001
+2024-12-04 15:35:34,642 - ERROR - API request failed for year 2009 and dataset acs/acs5/subject: 404 Client Error:  for url: https://api.census.gov/data/2009/acs/acs5/subject?get=group%28S0804%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 15:35:34,643 - WARNING - Received 404 for year 2009, dataset acs/acs5/subject. It may not exist.
+2024-12-04 15:36:51,047 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2010.json
+2024-12-04 15:38:00,288 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2011.json
+2024-12-04 15:39:07,191 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2012.json
+2024-12-04 15:40:17,229 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2013.json
+2024-12-04 15:41:24,101 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2014.json
+2024-12-04 15:42:31,013 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2015.json
+2024-12-04 15:43:36,028 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2016.json
+2024-12-04 15:44:44,843 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2017.json
+2024-12-04 15:45:57,628 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2018.json
+2024-12-04 15:47:14,906 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2019.json
+2024-12-04 15:48:25,103 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2020.json
+2024-12-04 15:49:37,798 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2021.json
+2024-12-04 15:49:37,852 - INFO - Census data retrieval completed for years 2009 to 2022, acs/acs5/subject, S0804
+2024-12-04 15:54:11,878 - ERROR - API request failed for year 2009 and dataset acs/acs5/subject: 404 Client Error:  for url: https://api.census.gov/data/2009/acs/acs5/subject?get=group%28S2303%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 15:54:11,879 - WARNING - Received 404 for year 2009, dataset acs/acs5/subject. It may not exist.
+2024-12-04 15:54:26,637 - INFO - Data successfully saved to data\acs_acs5_subject_S2303_2010.json
+2024-12-04 15:54:40,486 - INFO - Data successfully saved to data\acs_acs5_subject_S2303_2011.json
+2024-12-04 15:54:54,650 - INFO - Data successfully saved to data\acs_acs5_subject_S2303_2012.json
+2024-12-04 15:55:05,979 - INFO - Data successfully saved to data\acs_acs5_subject_S2303_2013.json
+2024-12-04 15:55:17,893 - INFO - Data successfully saved to data\acs_acs5_subject_S2303_2014.json
+2024-12-04 15:55:52,792 - INFO - Data successfully saved to data\acs_acs5_subject_S2303_2015.json
+2024-12-04 15:56:26,554 - INFO - Data successfully saved to data\acs_acs5_subject_S2303_2016.json
+2024-12-04 15:57:03,796 - INFO - Data successfully saved to data\acs_acs5_subject_S2303_2017.json
+2024-12-04 15:57:34,260 - INFO - Data successfully saved to data\acs_acs5_subject_S2303_2018.json
+2024-12-04 15:58:06,701 - INFO - Data successfully saved to data\acs_acs5_subject_S2303_2019.json
+2024-12-04 15:58:40,878 - INFO - Data successfully saved to data\acs_acs5_subject_S2303_2020.json
+2024-12-04 15:59:12,514 - INFO - Data successfully saved to data\acs_acs5_subject_S2303_2021.json
+2024-12-04 15:59:12,544 - INFO - Census data retrieval completed for years 2009 to 2022, acs/acs5/subject, S2303
+2024-12-04 16:04:06,882 - ERROR - API request failed for year 2009 and dataset acs/acs5/cprofile: 404 Client Error:  for url: https://api.census.gov/data/2009/acs/acs5/cprofile?get=group%28CP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 16:04:06,882 - WARNING - Received 404 for year 2009, dataset acs/acs5/cprofile. It may not exist.
+2024-12-04 16:04:07,476 - ERROR - API request failed for year 2010 and dataset acs/acs5/cprofile: 404 Client Error:  for url: https://api.census.gov/data/2010/acs/acs5/cprofile?get=group%28CP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 16:04:07,476 - WARNING - Received 404 for year 2010, dataset acs/acs5/cprofile. It may not exist.
+2024-12-04 16:04:08,071 - ERROR - API request failed for year 2011 and dataset acs/acs5/cprofile: 404 Client Error:  for url: https://api.census.gov/data/2011/acs/acs5/cprofile?get=group%28CP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 16:04:08,072 - WARNING - Received 404 for year 2011, dataset acs/acs5/cprofile. It may not exist.
+2024-12-04 16:04:08,669 - ERROR - API request failed for year 2012 and dataset acs/acs5/cprofile: 404 Client Error:  for url: https://api.census.gov/data/2012/acs/acs5/cprofile?get=group%28CP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 16:04:08,669 - WARNING - Received 404 for year 2012, dataset acs/acs5/cprofile. It may not exist.
+2024-12-04 16:04:09,264 - ERROR - API request failed for year 2013 and dataset acs/acs5/cprofile: 404 Client Error:  for url: https://api.census.gov/data/2013/acs/acs5/cprofile?get=group%28CP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 16:04:09,264 - WARNING - Received 404 for year 2013, dataset acs/acs5/cprofile. It may not exist.
+2024-12-04 16:04:09,862 - ERROR - API request failed for year 2014 and dataset acs/acs5/cprofile: 404 Client Error:  for url: https://api.census.gov/data/2014/acs/acs5/cprofile?get=group%28CP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 16:04:09,862 - WARNING - Received 404 for year 2014, dataset acs/acs5/cprofile. It may not exist.
+2024-12-04 16:04:35,965 - INFO - Data successfully saved to data\acs_acs5_cprofile_CP03_2015.json
+2024-12-04 16:05:00,090 - INFO - Data successfully saved to data\acs_acs5_cprofile_CP03_2016.json
+2024-12-04 16:05:25,580 - INFO - Data successfully saved to data\acs_acs5_cprofile_CP03_2017.json
+2024-12-04 16:05:52,931 - INFO - Data successfully saved to data\acs_acs5_cprofile_CP03_2018.json
+2024-12-04 16:06:16,838 - INFO - Data successfully saved to data\acs_acs5_cprofile_CP03_2019.json
+2024-12-04 16:06:41,599 - INFO - Data successfully saved to data\acs_acs5_cprofile_CP03_2020.json
+2024-12-04 16:07:08,794 - INFO - Data successfully saved to data\acs_acs5_cprofile_CP03_2021.json
+2024-12-04 16:07:08,819 - INFO - Census data retrieval completed for years 2009 to 2022, acs/acs5/cprofile, CP03
