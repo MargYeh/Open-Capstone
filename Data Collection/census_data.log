@@ -135,3 +135,31 @@
 2024-12-04 16:06:41,599 - INFO - Data successfully saved to data\acs_acs5_cprofile_CP03_2020.json
 2024-12-04 16:07:08,794 - INFO - Data successfully saved to data\acs_acs5_cprofile_CP03_2021.json
 2024-12-04 16:07:08,819 - INFO - Census data retrieval completed for years 2009 to 2022, acs/acs5/cprofile, CP03
+2024-12-04 17:32:41,573 - ERROR - API request failed for year 2009 and dataset acs/acs5/subject: 404 Client Error:  for url: https://api.census.gov/data/2009/acs/acs5/subject?get=group%28S0804%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 17:32:41,573 - WARNING - Received 404 for year 2009, dataset acs/acs5/subject. It may not exist.
+2024-12-04 17:33:57,385 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2010.json
+2024-12-04 17:35:17,986 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2011.json
+2024-12-04 17:36:56,602 - ERROR - API request failed for year 2009 and dataset acs/acs5/subject: 404 Client Error:  for url: https://api.census.gov/data/2009/acs/acs5/subject?get=group%28S0804%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 17:36:56,602 - WARNING - Received 404 for year 2009, dataset acs/acs5/subject. It may not exist.
+2024-12-04 17:38:07,698 - ERROR - API request failed for year 2009 and dataset acs/acs5/subject: 404 Client Error:  for url: https://api.census.gov/data/2009/acs/acs5/subject?get=group%28S0804%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 17:38:07,698 - WARNING - Received 404 for year 2009, dataset acs/acs5/subject. It may not exist.
+2024-12-04 17:38:23,647 - ERROR - API request failed for year 2009 and dataset acs/acs5/subject: 404 Client Error:  for url: https://api.census.gov/data/2009/acs/acs5/subject?get=group%28S0804%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 17:38:23,648 - WARNING - Received 404 for year 2009, dataset acs/acs5/subject. It may not exist.
+2024-12-04 17:39:43,041 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2010.json
+2024-12-04 17:40:57,036 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2011.json
+2024-12-04 17:42:08,849 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2012.json
+2024-12-04 17:43:36,629 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2013.json
+2024-12-04 17:44:50,648 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2014.json
+2024-12-04 17:46:11,270 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2015.json
+2024-12-04 17:47:37,787 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2016.json
+2024-12-04 17:48:57,139 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2017.json
+2024-12-04 17:50:16,105 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2018.json
+2024-12-04 17:51:31,950 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2019.json
+2024-12-04 17:52:49,607 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2020.json
+2024-12-04 17:54:20,364 - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2021.json
+2024-12-04 17:54:20,418 - INFO - Census data retrieval completed for years 2009 to 2022, acs/acs5/subject, S0804
+2024-12-04 17:54:21,003 - ERROR - API request failed for year 2009 and dataset acs/acs5/subject: 404 Client Error:  for url: https://api.census.gov/data/2009/acs/acs5/subject?get=group%28S0701%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-04 17:54:21,003 - WARNING - Received 404 for year 2009, dataset acs/acs5/subject. It may not exist.
+2024-12-04 17:55:19,728 - INFO - Data successfully saved to data\acs_acs5_subject_S0701_2010.json
+2024-12-04 17:56:16,535 - INFO - Data successfully saved to data\acs_acs5_subject_S0701_2011.json
+2024-12-04 17:57:22,996 - INFO - Data successfully saved to data\acs_acs5_subject_S0701_2012.json
