@@ -68,29 +68,29 @@ def getdata(year, dataset, group):
 if __name__ == "__main__":
     initial = input("Is this the initial run? Input Y to collect data for years 2005 to 2023")
     if initial.upper() == 'Y':
-        # for year in range(2009, 2022):  # Looping from 2009 to 2022
-        #     getdata(str(year), "acs/acs5/profile", 'DP03')
-        # logger.info("Census data retrieval completed for years 2009 to 2022, acs/acs5/profile, DP03")
+        for year in range(2009, 2022):  # Looping from 2009 to 2022
+            getdata(str(year), "acs/acs5/profile", 'DP03')
+        logger.info("Census data retrieval completed for years 2009 to 2022, acs/acs5/profile, DP03")
 
-        # for year in range(2009, 2022):  # Looping from 2009 to 2022
-        #     getdata(str(year), "acs/acs5/profile", 'DP04')
-        # logger.info("Census data retrieval completed for years 2009 to 2022, acs/acs5/profile, DP04")
-
-        # for year in range(2009, 2022):  # Looping from 2009 to 2022
-        #     getdata(str(year), "acs/acs5/subject", 'S0804')
-        # logger.info("Census data retrieval completed for years 2009 to 2022, acs/acs5/subject, S0804")
+        for year in range(2009, 2022):  # Looping from 2009 to 2022
+            getdata(str(year), "acs/acs5/profile", 'DP04')
+        logger.info("Census data retrieval completed for years 2009 to 2022, acs/acs5/profile, DP04")
 
         for year in range(2009, 2022):  # Looping from 2009 to 2022
             getdata(str(year), "acs/acs5/subject", 'S0804')
+        logger.info("Census data retrieval completed for years 2009 to 2022, acs/acs5/subject, S0804")
+
+        for year in range(2009, 2022):  # Looping from 2009 to 2022
+            getdata(str(year), "acs/acs5/subject", 'S0701')
         logger.info("Census data retrieval completed for years 2009 to 2022, acs/acs5/subject, S0701")
 
-        # for year in range(2009, 2022):  # Looping from 2009 to 2022
-        #     getdata(str(year), "acs/acs5/subject", 'S2303')
-        # logger.info("Census data retrieval completed for years 2009 to 2022, acs/acs5/subject, S2303")
+        for year in range(2009, 2022):  # Looping from 2009 to 2022
+            getdata(str(year), "acs/acs5/subject", 'S2303')
+        logger.info("Census data retrieval completed for years 2009 to 2022, acs/acs5/subject, S2303")
 
-        # for year in range(2009, 2022):  # Looping from 2009 to 2022
-        #     getdata(str(year), "acs/acs5/cprofile", 'CP03')
-        # logger.info("Census data retrieval completed for years 2009 to 2022, acs/acs5/cprofile, CP03")
+        for year in range(2009, 2022):  # Looping from 2009 to 2022
+            getdata(str(year), "acs/acs5/cprofile", 'CP03')
+        logger.info("Census data retrieval completed for years 2009 to 2022, acs/acs5/cprofile, CP03")
     else:
         year = input("Enter single year")
         getdata(str(year), "acs/acs5/profile", 'DP03')
@@ -99,5 +99,5 @@ if __name__ == "__main__":
         getdata(str(year), "acs/acs5/subject", 'S0701')
         getdata(str(year), "acs/acs5/subject", 'S2303')
         getdata(str(year), "acs/acs5/cprofile", 'CP03')
-        logger.info("Census data retrieval completed for year {year}, acs/acs1, B19001")
+        logger.info("Census data retrieval completed for year {year} (All groups)")
 
