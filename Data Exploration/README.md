@@ -4,6 +4,16 @@ The dataset contains data pulled from the American Community Survey 5-Year Data 
 - https://www.census.gov/data/developers/data-sets/acs-5year.html
 - https://api.census.gov/data/2022/acs/acs5/profile/variables.html
 
+Groups of Interest: https://censusreporter.org/topics/table-codes/
+- Group DP02. Citizenship, Education, Household composition
+- Group DP03. Selected Economic Characteristics: County level economic characteristics, income of various households, retirement, social security, health insurance
+- Group DP04. Rent and Housing information
+- Group S0804. Means of Transportation to Work by Selected Characteristics for Workplace Geography
+- Group S0701. Geographic Mobility by Selected Characteristics in the United States
+- Group S2303. Work status in the past 12 months
+- Group CP03. Comparative Economic Characteristics
+
+Year ranges from 2009 - 2022
 ##
 ## Sample Screenshots of Data:
 ![image](https://github.com/user-attachments/assets/b07ac9b4-3077-4306-a2bb-fa5a53687abd)
