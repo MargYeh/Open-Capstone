@@ -1,0 +1,232 @@
+2024-12-14 12:33:48,128 - __main__ - INFO - Running main
+2024-12-14 12:33:48,136 - collector - ERROR - Error reading config file: invalid decimal literal (<string>, line 1)
+2024-12-14 12:37:02,621 - __main__ - INFO - Running main
+2024-12-14 12:37:02,621 - collector - ERROR - Error reading config file: invalid decimal literal (<string>, line 1)
+2024-12-14 12:37:57,501 - __main__ - INFO - Running main
+2024-12-14 12:37:57,509 - collector - ERROR - Error reading config file: invalid decimal literal (<string>, line 1)
+2024-12-14 12:38:58,664 - __main__ - INFO - Running main
+2024-12-14 12:38:58,665 - collector - ERROR - Error reading config file: invalid decimal literal (<string>, line 1)
+2024-12-14 12:42:09,919 - __main__ - INFO - Running main
+2024-12-14 12:42:09,921 - collector - ERROR - Error reading config file: invalid decimal literal (<string>, line 1)
+2024-12-14 12:44:24,983 - __main__ - INFO - Running main
+2024-12-14 12:44:24,985 - collector - ERROR - Error reading config file: invalid decimal literal (<string>, line 1)
+2024-12-14 13:37:46,320 - __main__ - INFO - Running main
+2024-12-14 13:37:46,323 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:37:46,558 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2009/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:37:46,559 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:37:51,191 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2009/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:38:30,423 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP02_2009.json
+2024-12-14 13:38:30,463 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:38:30,683 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2009/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:38:30,685 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:38:34,596 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2009/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:39:05,379 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2009.json
+2024-12-14 13:39:05,412 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:39:05,614 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2009/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:39:05,615 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:39:10,021 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2009/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:39:44,663 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2009.json
+2024-12-14 13:39:44,698 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:39:44,904 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2010/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:39:44,905 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:39:48,963 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2010/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:40:28,274 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP02_2010.json
+2024-12-14 13:40:28,317 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:40:28,528 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2010/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:40:28,529 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:40:32,300 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2010/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:41:17,293 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2010.json
+2024-12-14 13:41:17,338 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:41:17,550 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2010/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:41:17,551 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:41:22,303 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2010/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:42:00,149 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2010.json
+2024-12-14 13:42:00,187 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:42:00,378 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2011/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:42:00,379 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:42:04,289 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2011/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:42:45,896 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP02_2011.json
+2024-12-14 13:42:45,938 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:42:46,132 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2011/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:42:46,133 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:42:50,724 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2011/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:43:33,987 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2011.json
+2024-12-14 13:43:34,039 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:43:34,233 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2011/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:43:34,234 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:43:38,888 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2011/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:44:18,160 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2011.json
+2024-12-14 13:44:18,198 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:44:18,391 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2012/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:44:18,391 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:44:22,234 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2012/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:44:59,983 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP02_2012.json
+2024-12-14 13:45:00,026 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:45:00,218 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2012/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:45:00,219 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:45:04,485 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2012/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:45:43,636 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2012.json
+2024-12-14 13:45:43,680 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:45:43,881 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2012/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:45:43,882 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:45:47,899 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2012/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:46:25,363 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2012.json
+2024-12-14 13:46:25,401 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:46:25,600 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2013/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:46:25,601 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:46:29,364 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2013/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:47:11,200 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP02_2013.json
+2024-12-14 13:47:11,243 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:47:11,434 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2013/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:47:11,435 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:47:16,186 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2013/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:47:53,765 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2013.json
+2024-12-14 13:47:53,805 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:47:54,003 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2013/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:47:54,004 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:47:58,429 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2013/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:48:35,188 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2013.json
+2024-12-14 13:48:35,227 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:48:35,423 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2014/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:48:35,423 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:48:39,926 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2014/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:49:20,363 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP02_2014.json
+2024-12-14 13:49:20,399 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:49:20,596 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2014/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:49:20,597 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:49:24,689 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2014/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:50:03,859 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2014.json
+2024-12-14 13:50:03,900 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:50:04,100 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2014/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:50:04,101 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:50:08,961 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2014/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:50:46,247 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2014.json
+2024-12-14 13:50:46,283 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:50:46,477 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2015/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:50:46,478 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:50:51,218 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2015/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:51:31,280 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP02_2015.json
+2024-12-14 13:51:31,326 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:51:31,518 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2015/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:51:31,518 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:51:36,543 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2015/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:52:14,180 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2015.json
+2024-12-14 13:52:14,223 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:52:14,415 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2015/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:52:14,416 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:52:18,892 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2015/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:52:56,467 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2015.json
+2024-12-14 13:52:56,504 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:52:56,749 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2016/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:52:56,750 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:53:00,866 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2016/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:53:40,443 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP02_2016.json
+2024-12-14 13:53:40,483 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:53:40,677 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2016/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:53:40,678 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:53:45,046 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2016/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:54:23,600 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2016.json
+2024-12-14 13:54:23,639 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:54:23,834 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2016/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:54:23,835 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:54:28,844 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2016/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:55:05,463 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2016.json
+2024-12-14 13:55:05,501 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:55:05,694 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2017/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:55:05,695 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:55:10,594 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2017/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:55:50,879 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP02_2017.json
+2024-12-14 13:55:50,913 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:55:51,108 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2017/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:55:51,109 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:55:55,427 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2017/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:56:33,640 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2017.json
+2024-12-14 13:56:33,676 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:56:33,867 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2017/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:56:33,868 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:56:38,559 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2017/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:57:17,328 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2017.json
+2024-12-14 13:57:17,369 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:57:17,567 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2018/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:57:17,568 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:57:22,122 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2018/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:58:03,265 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP02_2018.json
+2024-12-14 13:58:03,305 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:58:03,496 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2018/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:58:03,497 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:58:07,858 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2018/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:58:45,911 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2018.json
+2024-12-14 13:58:45,948 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:58:46,143 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2018/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:58:46,144 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:58:50,699 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2018/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 13:59:29,952 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2018.json
+2024-12-14 13:59:29,995 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 13:59:30,193 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2019/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 13:59:30,194 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 13:59:34,235 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2019/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 14:00:13,332 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP02_2019.json
+2024-12-14 14:00:13,370 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 14:00:13,565 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2019/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 14:00:13,566 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 14:00:18,244 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2019/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 14:00:57,541 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2019.json
+2024-12-14 14:00:57,577 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 14:00:57,770 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2019/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 14:00:57,770 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 14:01:02,020 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2019/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 14:01:39,505 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2019.json
+2024-12-14 14:01:39,539 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 14:01:39,728 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2020/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 14:01:39,729 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 14:01:43,743 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2020/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 14:02:25,455 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP02_2020.json
+2024-12-14 14:02:25,496 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 14:02:25,688 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2020/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 14:02:25,689 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 14:02:34,992 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2020/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 14:03:13,804 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2020.json
+2024-12-14 14:03:13,844 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 14:03:14,043 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2020/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 14:03:14,044 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 14:03:18,599 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2020/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 14:03:56,325 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2020.json
+2024-12-14 14:03:56,361 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 14:03:56,557 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2022/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 14:03:56,558 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 14:04:01,071 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2022/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 14:04:40,319 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP02_2022.json
+2024-12-14 14:04:40,352 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 14:04:40,546 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2022/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 14:04:40,547 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 14:04:45,006 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2022/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 14:05:25,980 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2022.json
+2024-12-14 14:05:26,017 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 14:05:26,217 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2022/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 14:05:26,218 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 14:05:30,285 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2022/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 14:06:09,187 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2022.json
+2024-12-14 17:26:08,992 - __main__ - INFO - Running main
+2024-12-14 17:26:09,003 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 17:26:09,222 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2021/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 17:26:09,223 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 17:26:13,320 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2021/acs/acs5/profile?get=group%28DP02%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 17:26:54,981 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP02_2021.json
+2024-12-14 17:26:55,027 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 17:26:55,222 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2021/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 17:26:55,223 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 17:26:59,137 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2021/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 17:27:40,982 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2021.json
+2024-12-14 17:27:41,029 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-14 17:27:41,219 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2021/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-14 17:27:41,220 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-14 17:27:45,716 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2021/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-14 17:28:22,705 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2021.json
+2024-12-16 15:09:56,229 - __main__ - INFO - Running main
+2024-12-16 15:10:24,936 - __main__ - INFO - Running main
+2024-12-16 15:10:51,633 - transformer - INFO - Final combined DataFrame for acs_acs5_profile_DP02: (43997, 576)
+2024-12-16 15:11:16,327 - transformer - INFO - Final combined DataFrame for acs_acs5_profile_DP03: (45089, 439)
+2024-12-16 15:11:42,003 - transformer - INFO - Final combined DataFrame for acs_acs5_profile_DP04: (45089, 556)
+2024-12-16 15:11:47,352 - __main__ - INFO - Saved combined DataFrame for acs_acs5_profile_DP02 to data\acs_acs5_profile_DP02_combined.csv
+2024-12-16 15:11:51,985 - __main__ - INFO - Saved combined DataFrame for acs_acs5_profile_DP03 to data\acs_acs5_profile_DP03_combined.csv
+2024-12-16 15:11:57,311 - __main__ - INFO - Saved combined DataFrame for acs_acs5_profile_DP04 to data\acs_acs5_profile_DP04_combined.csv

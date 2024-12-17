@@ -1,0 +1,68 @@
+2024-12-13 22:00:48,096 - __main__ - INFO - Running main
+2024-12-13 22:00:48,102 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-13 22:00:48,323 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2024/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-13 22:00:48,324 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-13 22:00:48,737 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2024/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 404 427
+2024-12-13 22:00:48,738 - collector - ERROR - API request failed for year 2024 and dataset acs/acs5/profile: 404 Client Error:  for url: https://api.census.gov/data/2024/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-13 22:00:48,738 - collector - WARNING - Received 404 for year 2024, dataset acs/acs5/profile. It may not exist.
+2024-12-13 22:00:48,740 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-13 22:00:48,934 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2024/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-13 22:00:48,935 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-13 22:00:49,319 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2024/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 404 427
+2024-12-13 22:00:49,320 - collector - ERROR - API request failed for year 2024 and dataset acs/acs5/profile: 404 Client Error:  for url: https://api.census.gov/data/2024/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-13 22:00:49,321 - collector - WARNING - Received 404 for year 2024, dataset acs/acs5/profile. It may not exist.
+2024-12-13 22:00:49,322 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-13 22:00:49,517 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2024/acs/acs5/subject?get=group%28S0804%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-13 22:00:49,519 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-13 22:00:49,918 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2024/acs/acs5/subject?get=group%28S0804%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 404 427
+2024-12-13 22:00:49,919 - collector - ERROR - API request failed for year 2024 and dataset acs/acs5/subject: 404 Client Error:  for url: https://api.census.gov/data/2024/acs/acs5/subject?get=group%28S0804%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-13 22:00:49,920 - collector - WARNING - Received 404 for year 2024, dataset acs/acs5/subject. It may not exist.
+2024-12-13 22:00:49,922 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-13 22:00:50,115 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2024/acs/acs5/subject?get=group%28S0701%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-13 22:00:50,117 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-13 22:00:50,501 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2024/acs/acs5/subject?get=group%28S0701%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 404 427
+2024-12-13 22:00:50,502 - collector - ERROR - API request failed for year 2024 and dataset acs/acs5/subject: 404 Client Error:  for url: https://api.census.gov/data/2024/acs/acs5/subject?get=group%28S0701%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-13 22:00:50,503 - collector - WARNING - Received 404 for year 2024, dataset acs/acs5/subject. It may not exist.
+2024-12-13 22:00:50,505 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-13 22:00:50,701 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2024/acs/acs5/subject?get=group%28S2303%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-13 22:00:50,702 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-13 22:00:51,085 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2024/acs/acs5/subject?get=group%28S2303%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 404 427
+2024-12-13 22:00:51,086 - collector - ERROR - API request failed for year 2024 and dataset acs/acs5/subject: 404 Client Error:  for url: https://api.census.gov/data/2024/acs/acs5/subject?get=group%28S2303%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-13 22:00:51,087 - collector - WARNING - Received 404 for year 2024, dataset acs/acs5/subject. It may not exist.
+2024-12-13 22:00:51,089 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-13 22:00:51,284 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2024/acs/acs5/cprofile?get=group%28CP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-13 22:00:51,285 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-13 22:00:51,678 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2024/acs/acs5/cprofile?get=group%28CP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 404 427
+2024-12-13 22:00:51,679 - collector - ERROR - API request failed for year 2024 and dataset acs/acs5/cprofile: 404 Client Error:  for url: https://api.census.gov/data/2024/acs/acs5/cprofile?get=group%28CP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0
+2024-12-13 22:00:51,679 - collector - WARNING - Received 404 for year 2024, dataset acs/acs5/cprofile. It may not exist.
+2024-12-13 22:02:00,210 - __main__ - INFO - Running main
+2024-12-13 22:02:00,212 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-13 22:02:00,413 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2022/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-13 22:02:00,414 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-13 22:02:04,437 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2022/acs/acs5/profile?get=group%28DP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-13 22:02:45,886 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP03_2022.json
+2024-12-13 22:02:45,932 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-13 22:02:46,129 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2022/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-13 22:02:46,131 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-13 22:02:50,857 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2022/acs/acs5/profile?get=group%28DP04%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-13 22:03:30,502 - collector - INFO - Data successfully saved to data\acs_acs5_profile_DP04_2022.json
+2024-12-13 22:03:30,546 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-13 22:03:30,741 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2022/acs/acs5/subject?get=group%28S0804%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-13 22:03:30,743 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-13 22:03:37,121 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2022/acs/acs5/subject?get=group%28S0804%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-13 22:04:31,521 - collector - INFO - Data successfully saved to data\acs_acs5_subject_S0804_2022.json
+2024-12-13 22:04:31,580 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-13 22:04:31,773 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2022/acs/acs5/subject?get=group%28S0701%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-13 22:04:31,775 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-13 22:04:36,340 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2022/acs/acs5/subject?get=group%28S0701%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-13 22:05:11,483 - collector - INFO - Data successfully saved to data\acs_acs5_subject_S0701_2022.json
+2024-12-13 22:05:11,522 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-13 22:05:11,714 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2022/acs/acs5/subject?get=group%28S2303%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-13 22:05:11,715 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-13 22:05:14,921 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2022/acs/acs5/subject?get=group%28S2303%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-13 22:05:39,535 - collector - INFO - Data successfully saved to data\acs_acs5_subject_S2303_2022.json
+2024-12-13 22:05:39,563 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.census.gov:80
+2024-12-13 22:05:39,758 - urllib3.connectionpool - DEBUG - http://api.census.gov:80 "GET /data/2022/acs/acs5/cprofile?get=group%28CP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 302 0
+2024-12-13 22:05:39,759 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.census.gov:443
+2024-12-13 22:05:42,705 - urllib3.connectionpool - DEBUG - https://api.census.gov:443 "GET /data/2022/acs/acs5/cprofile?get=group%28CP03%29&for=county%3A%2A&key=848036d46fd55e63a5f1b21b7ef156d442ccd5b0 HTTP/1.1" 200 None
+2024-12-13 22:06:03,675 - collector - INFO - Data successfully saved to data\acs_acs5_cprofile_CP03_2022.json
