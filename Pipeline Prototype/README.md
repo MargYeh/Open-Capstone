@@ -5,9 +5,9 @@ This part of the project expands on the previous ideas in Data Exploration to bu
 The program is run through ```driver.py```. It will download the files corresponding to the groups listed in config.ini, clean them, and then save the finished dataframes locally as csv files. 
 
 ## How to run
-Enter your API key into configs.ini
-Also pick the groups that will be examined in GROUPLIST
-Run driver.py
+- Enter your API key into configs.ini
+- Pick the groups that will be examined in GROUPLIST
+- Run driver.py
 
 ## Explanation
 Driver.py uses collector.py and transformer.py to do the data collection and transforming. Error messages and metrics are logged into census_data.log. The results are outputted into the data folder as 
