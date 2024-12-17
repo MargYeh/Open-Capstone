@@ -2,6 +2,7 @@ Project Proposal/Open Capstone Project Proposal.docx
 Open.docx
 Data Collection/census_api_key.txt
 Data Collection/data/*
+Data Collection/configs.ini
 !Data Collection/data/,gitkeep
 Pipeline Prototype/data/*
 !Pipeline Prototype/data/,gitkeep
