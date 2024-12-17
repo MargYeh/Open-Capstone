@@ -10,7 +10,7 @@ The program is run through ```driver.py```. It will download the files correspon
 - Run driver.py
 
 ## Explanation
-Driver.py uses collector.py and transformer.py to do the data collection and transforming. Error messages and metrics are logged into census_data.log. The results are outputted into the data folder as 
+Driver.py uses collector.py and transformer.py to do the data collection and transforming. Error messages and metrics are logged into census_data.log. The results are outputted into the data folder as {prefix}_combined.csv
 
 ## Processing
 Originally the data has many empty columns and rows with only the county/state/name filled out as seen below. I remove the empty columns, the empty rows, and any columns that are majorily filled with non-numerical data. Then jsons of the same groups are collected together and a corresponding year column is added. The resulting dataframe is outputted as a single csv file for each group.
