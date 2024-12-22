@@ -99,15 +99,17 @@ if __name__ == "__main__":
     config = get_configs(config_file)
     CENSUS_API_KEY = config["CENSUS_API_KEY"]
     GROUPLIST = config["GROUPLIST"]
+    print(CENSUS_API_KEY)
+    print(GROUPLIST)
 
-    collector = Collector(CENSUS_API_KEY, GROUPLIST)
+    # collector = Collector(CENSUS_API_KEY, GROUPLIST)
 
-    initial = input("Is this the initial run? Input Y to collect data for years 2005 to 2023")
-    if initial.upper() == 'Y':
-        collector.getallupto(2022)
-        logger.info("Census data retrieval completed for all up to year {year} (All groups)")
-    else:
-        year = input("Enter single year")
-        collector.getyear(year)
-        logger.info("Census data retrieval completed for year {year} (All groups)")
+    # initial = input("Is this the initial run? Input Y to collect data for years 2005 to 2023")
+    # if initial.upper() == 'Y':
+    #     collector.getallupto(2022)
+    #     logger.info("Census data retrieval completed for all up to year {year} (All groups)")
+    # else:
+    #     year = input("Enter single year")
+    #     collector.getyear(year)
+    #     logger.info("Census data retrieval completed for year {year} (All groups)")
 
