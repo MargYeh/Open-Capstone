@@ -1,5 +1,3 @@
-#%%
-
 import json
 import pandas as pd
 import logging
@@ -9,26 +7,36 @@ import numpy as np
 from pyspark.sql import SparkSession, Row, functions as F
 from pyspark.sql.types import StructType, StructField, StringType, DoubleType, NumericType
 from functools import reduce
+import dbutils
 import sys
 
+logging.basicConfig(
+    filename="transformer.log",  # Log file name
+    level=logging.INFO,  # Logging level (INFO, DEBUG, WARNING, etc.)
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
 logger = logging.getLogger(__name__)
-#%%
+
+try:
+    # Check if dbutils is available directly in the environment
+    dbutils  # This checks if the dbutils is in the global namespace
+    is_databricks = True
+except NameError:
+    # If dbutils is not available, it's likely not Databricks
+    is_databricks = False
+
+if not is_databricks:
+    # Mock dbutils for local development (only for local testing)
+    from dbutils import MockDbUtils
+    dbutils = MockDbUtils()
+    
 class Transformer:
     def __init__(self, spark_session):
         self.dir = "dbfs:/data"
         self.spark = spark_session
         self.dataframes = {}
-
-        global dbutils  # Declare dbutils as global to use directly in the class
-
-        if "dbutils" in sys.modules:
-            pass  
-        else:
-            # mock dbutils for local development
-            from dbutils import MockDbUtils
-            dbutils = MockDbUtils()
     
-    def get_group_year(file_path):
+    def get_group_year(self, file_path):
         """Gets the prefix and year from a file name."""
         match = re.match(r"(.+?)_(\d{4})\.parquet$", file_path)
         if match:
@@ -37,10 +45,9 @@ class Transformer:
             return prefix, year
         return None, None
     
-    def drop_null_columns(df):
+    def drop_null_columns(self, df): #Remove this if transformer works without it
         cols_to_check = [col for col in df.columns]
         if len(cols_to_check) > 0:
-            # drop columns for which the max is None
             rows_with_data = df.select(*cols_to_check).groupby().agg(*[F.max(c).alias(c) for c in cols_to_check]).take(1)[0]
             cols_to_drop = [c for c, const in rows_with_data.asDict().items() if const == None]
             new_df = df.drop(*cols_to_drop)
@@ -49,12 +56,12 @@ class Transformer:
         else:
             return df
     
-    def remove_null_rows(df):
+    def remove_null_rows(self, df):
         columns_to_keep = ['GEO_ID', 'NAME', 'state', 'county']
         new_df = df.dropna(how='all', subset=[col for col in df.columns if col not in columns_to_keep])
         return new_df
     
-    def remove_non_numeric_columns(df):
+    def remove_non_numeric_columns(self, df):
         columns_to_keep = ['GEO_ID', 'NAME', 'state', 'county']
 
         numeric_columns = [
@@ -62,18 +69,15 @@ class Transformer:
             if isinstance(df.schema[col].dataType, NumericType) and col not in columns_to_keep
         ]
 
-        # Combine numeric columns and the columns to keep
         columns_to_retain = numeric_columns + columns_to_keep
-
-        # Select only the columns to keep
         new_df = df.select(*columns_to_retain)
 
         return new_df
 
     
     def clean_df(self, df, year):
-        df_no_null_columns = self.drop_null_columns(df)
-        df_no_null_rows = self.remove_null_rows(df_no_null_columns)
+        #df_no_null_columns = self.drop_null_columns(df) #This was removed to speed up things, null columns should be removed when selecting numeric columns already
+        df_no_null_rows = self.remove_null_rows(df)
         clean_df = self.remove_non_numeric_columns(df_no_null_rows)
 
         #add the year column
@@ -81,7 +85,7 @@ class Transformer:
         return final_df
     
     def json_to_cleaned_dataframe(self, file_path):
-        """To be used on the first json of a prefix.
+        """To be used on the first json of a group.
         Converts JSON file to dataframe, cleans it by removing null rows and columns and non-numerical data, 
         then adds a year column."""
 
@@ -105,32 +109,26 @@ class Transformer:
         """Reads incoming parquet file, cleans and then combines it with existing df. """
         df_columns = df.columns  # Get the columns from the first DataFrame
         group, year = self.get_group_year(file_path)  # Get the group and year from the file path
-
+        #print(f'Trying to combine {file_path}')
         try:
-            # Read the Parquet file as a Spark DataFrame
             df2 = self.spark.read.parquet(file_path)
+            df2_no_null_rows = self.remove_null_rows(df2)
+            df2_year = df2_no_null_rows.withColumn('year', F.lit(year))
+            df2_cleaned = df2_year.select(*df_columns)
 
-            # Clean the new DataFrame using the clean_df method
-            df2_cleaned = self.clean_df(df2, year)
-
-            # Keep only the columns from the first DataFrame
-            df2_cleaned = df2_cleaned.select(*df_columns)
-
-            # Union the cleaned DataFrame with the original one
             df_combined = df.union(df2_cleaned)
 
             return df_combined
 
         except Exception as e:
+            #print(f'Debugging error when combining {file_path}: {e}')
             logger.error(f"Error processing Parquet file {file_path}: {e}")
             return df  # Return the original DataFrame in case of error
         
     def process_all(self):
         """
-        Loops through and groups the data files by prefix, then combines all the years 
-        of a given prefix. Works with Databricks and Spark.
+        Loops through and groups the data files by prefix, then combines all the years of each prefix
         """
-        # List all files in the directory
         files = [f.name.rstrip('/') for f in dbutils.fs.ls(self.dir) if f.name.endswith(".parquet/")]
         files.sort()
 
@@ -144,14 +142,12 @@ class Transformer:
         for prefix, file_list in grouped_files.items():
             file_list.sort()  # Sort by year
             df = None
-
+            #print(file_list)
             for idx, (year, file_name) in enumerate(file_list):
-                file_path = f"{self.dir}/{file_name}"  # Concatenate paths for Databricks
+                file_path = f"{self.dir}/{file_name}" 
                 if idx == 0:
-                    # Convert the first file to a cleaned Spark DataFrame
                     df = self.json_to_cleaned_dataframe(file_path)
                 else:
-                    # Combine the current DataFrame with the new file
                     df = self.combine(df, file_path)
 
             if df is not None:
@@ -168,11 +164,7 @@ if __name__ == "__main__":
     transformer = Transformer(spark)
     transformer.process_all()
 
-    #For saving to csv (change this later for other formats)
     for prefix, df in transformer.dataframes.items():
         output_file = f"{transformer.dir}/{prefix}_combined.parquet"
         df.write.parquet(output_file, mode="overwrite")
         logger.info(f"Saved combined DataFrame for {prefix} to {output_file}")
-
-   
-
