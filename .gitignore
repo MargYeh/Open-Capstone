@@ -12,3 +12,9 @@ Pipeline Prototype/test.py
 Code Testing/math_func.py
 Code Testing/test_math_func.py
 Prototype Scaling PySpark/local development files/configs.ini
+Code Testing/__pycache__/*
+Code Testing/.pytest_cache/*
+Code Testing/data/*
+Code Testing/spark_test_env/*
+Code Testing/simple_spark_test.py
+Code Testing/simple_spark.py

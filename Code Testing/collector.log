@@ -1,0 +1,16 @@
+2025-01-07 19:02:27,652 - ERROR - Error reading config file: No section: 'settings'
+2025-01-07 19:06:16,428 - ERROR - Error reading config file: No section: 'settings'
+2025-01-07 19:08:24,138 - ERROR - Error reading config file: No section: 'settings'
+2025-01-07 19:12:53,207 - ERROR - Error reading config file: No section: 'settings'
+2025-01-07 19:14:34,494 - INFO - Reading config file from: /tmp/configs.ini
+2025-01-07 19:14:34,494 - ERROR - Config file '/tmp/configs.ini' does not exist.
+2025-01-07 19:14:34,495 - INFO - Sections found: []
+2025-01-07 19:14:34,495 - ERROR - No 'settings' section found in config file.
+2025-01-07 19:20:00,884 - INFO - Reading config file from: tmp/configs.ini
+2025-01-07 19:20:00,884 - INFO - Sections found: ['settings']
+2025-01-07 19:22:32,232 - INFO - NumExpr defaulting to 8 threads.
+2025-01-07 19:22:44,231 - INFO - Closing down clientserver connection
+2025-01-07 21:44:52,354 - INFO - Reading config file from: configs.ini
+2025-01-07 21:44:52,354 - INFO - Sections found: ['settings']
+2025-01-07 21:45:14,488 - INFO - Reading config file from: configs.ini
+2025-01-07 21:45:14,490 - INFO - Sections found: ['settings']
