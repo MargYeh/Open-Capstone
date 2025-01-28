@@ -6,6 +6,7 @@ import numpy as np
 from pyspark.sql import SparkSession, Row, functions as F
 from pyspark.sql.types import StructType, StructField, StringType, DoubleType
 from functools import reduce
+import datetime
 #from dbutils import MockDbUtils
 import sys
 
@@ -172,7 +173,8 @@ if __name__ == "__main__":
 
     #----
     #If collecting a single year, use this instead
-    #collector.getyear(int(year))
+    current_year = datetime.datetime.now().year
+    #collector.getyear(int(current_year))
 
     # initial = input("Is this the initial run? Input Y to collect data for years 2009 to 2022")
     # if initial.upper() == 'Y':
