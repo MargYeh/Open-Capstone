@@ -1,5 +1,5 @@
 # Final Working Project for Deployment on Azure Blob and Azure Databricks
-This project is a simple ETL setup that is designed to be deployed on the Azure cloud system. It gathers data from the American Community Survey 5-Year Data (2009-2022) on an automatic schedule, cleans and combines it, and then uploads the finished clean result as parquets and csv files to an Azure Blob for further analysis (Using Tableau Public or other methods). 
+This project is a simple ETL setup that is designed to be deployed on the Azure cloud system. It gathers data from the American Community Survey 5-Year Data (2009-2022) on an automatic schedule, cleans and combines it, and then uploads the finished clean result as parquets and csv files to an Azure Blob Storage for further analysis (Using Tableau Public or other methods). 
 
 ## Setup Instructions
 
@@ -7,6 +7,9 @@ The files contain the notebooks collector, transformer, and the config.ini that 
 
 ### Azure Deployments
 The project will need a Azure Blob Storage and Databricks deployment. The exact templates used for the deployment here are located in https://github.com/MargYeh/Open-Capstone/tree/main/Deployment%20Architecture%20Planning. 
+
+Databricks Setup: Used 15.4 LTS (Spark 3.5.0, Scala 2.12)
+
 A diagram of the architecture is shown below:
 
 ![image](https://github.com/user-attachments/assets/2542b11f-b43f-4500-9d15-ab99b501dde9)
@@ -33,4 +36,19 @@ Afterwords, for subsequent runs comment out the previous code and uncomment this
 This makes collector only check for additional data for the current year, if there is no new data then no change will happen.
 
 ## Results
+Downloaded data after collector has run:
+
+![image](https://github.com/user-attachments/assets/64694e48-27a9-41b4-85df-37903988a229)
+
+Confirmation of data has been successfully collected:
+
+![image](https://github.com/user-attachments/assets/aaf3a332-3640-40da-b817-067cab29fd88)
+
+Confirmation of data downloaded to Azure Blob Storage after transformer run:
+
+![image](https://github.com/user-attachments/assets/86baf7c8-3223-49d5-be13-c2004d662eed)
+
+Sample of the metrics from the cluster used for the run:
+
+![image](https://github.com/user-attachments/assets/0b147fc0-2843-47ed-a06b-fdef9e347c8f)
 
