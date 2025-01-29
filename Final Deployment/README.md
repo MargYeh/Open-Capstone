@@ -1,6 +1,8 @@
 # Final Working Project for Deployment on Azure Blob and Azure Databricks
+This project is a simple ETL setup that is designed to be deployed on the Azure cloud system. It gathers data from the American Community Survey 5-Year Data (2009-2022) on an automatic schedule, cleans and combines it, and then uploads the finished clean result as parquets and csv files to an Azure Blob for further analysis (Using Tableau Public or other methods). 
 
 ## Setup Instructions
+
 The files contain the notebooks collector, transformer, and the config.ini that need to be uploaded into Databricks. config.ini should be uploaded directly as a file to DBFS at dbfs://FileStore/tables/. The collector and transformer can be uploaded into the Databricks Workspace.
 
 ### Azure Deployments
@@ -16,4 +18,19 @@ After deploying the Azure Blob Storage, the following information in config.ini 
 - STORAGE_ACCOUNT: Name of Azure Blob Storage used for persisting data
 - STORAGE_KEY: Key of Azure Blob Storage
 - CONTAINER: Container of Azure Blob Storage
+
+### Scheduling
+Notebooks can be set to run on a yearly schedule through either the individual notebooks or from the Workflow section as individual jobs attached to notebooks. Set transformer to run after collector. Transformer will clean and combine all the same-named datasets from each year into one combined spark dataframe, and then save them as parquet and csv to the Azure Blob Storage information in config.ini. 
+
+The first run of collector requires the following code to be uncommented to download all filesets into DBFS:
+
+![image](https://github.com/user-attachments/assets/0bf19036-2ed6-4e47-96f4-5ef185fb0b79)
+
+Afterwords, for subsequent runs comment out the previous code and uncomment this one instead:
+
+![image](https://github.com/user-attachments/assets/4364ecbb-c6f1-4947-9b02-5b26080a580d)
+
+This makes collector only check for additional data for the current year, if there is no new data then no change will happen.
+
+## Results
 
