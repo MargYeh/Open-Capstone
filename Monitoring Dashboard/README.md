@@ -92,6 +92,9 @@ sh DashGen.sh
 ```
 This generates SparkMonitoringDash.json which can be directly imported when creating a new dashboard in Grafana.
 
+![image](https://github.com/user-attachments/assets/81452449-756e-4999-9822-71016e7817f4)
+
+
 
 
 
