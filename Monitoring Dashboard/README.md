@@ -7,6 +7,8 @@ The setup uses the following instructions along with the open source library Spa
 - Open Source Library used for monitoring: https://github.com/mspnp/spark-monitoring/tree/l4jv2
 - Dashboard Creation with Grafana: https://learn.microsoft.com/en-us/azure/architecture/databricks-monitoring/dashboards
 
+Final Grafana snapshot: https://margyeh7.grafana.net/dashboard/snapshot/FoK2brNCSrRFDJ6dr9sOMOSd8qEla2bg
+
 ## Setup
 
 ### Databricks CLI
