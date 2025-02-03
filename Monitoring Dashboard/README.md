@@ -59,6 +59,41 @@ After setup, the dataset needs to be reprocessed to obtain metrics. When this is
 
 ![image](https://github.com/user-attachments/assets/35f72168-1c06-4c3a-a23d-072b89122bcb)
 
+### Grafana Cloud
+Follow the instructions at https://learn.microsoft.com/en-us/azure/architecture/databricks-monitoring/dashboards. However, skip the Grafana virtual machine instructions and instead set up Grafana at https://grafana.com/products/cloud/. Begin with creating the Azure Monitor Data Source.
+
+From the Azure Bash Shell, run the following to create the Service Principal to connect Grafana and Log Analytics:
+```
+az ad sp create-for-rbac --name http://<service principal name> --role "Log Analytics Reader" --scopes /subscriptions/mySubscriptionID
+```
+It returns the information below, which can be used in Grafana to setup the Data Source
+```
+{
+    "appId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "displayName": "azure-cli-2019-03-27-00-33-39",
+    "name": "http://<service principal name>",
+    "password": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "tenant": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+}
+```
+Set up the Data source in Grafana Cloud through 'Data Sources', Add new Data Source (Search Azure Monitor). Save & Test should return the following message:
+
+![image](https://github.com/user-attachments/assets/1c5a8c14-fc7e-428f-8495-9d888f02c3e7)
+
+Follow the instructions under 'Create the Dashboard'
+In 'perftools/dashboards/grafana' run the following commmand:
+```
+export WORKSPACE=<your Azure Log Analytics workspace ID>
+export LOGTYPE=SparkListenerEvent_CL
+
+sh DashGen.sh
+```
+This generates SparkMonitoringDash.json which can be directly imported when creating a new dashboard in Grafana.
+
+
+
+
+
 
 
 
